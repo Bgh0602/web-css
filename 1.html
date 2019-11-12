@@ -3,76 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Practicing</title>
-    <style>
-      a {
-        color:black;
-        text-decoration: none;
-      }
-      h1 {
-        font-size:60px;
-        text-align: center;
-        border-bottom:solid gray 1px;
-        margin: 0;
-        padding: 20px;
-      }
-      h2 {
-        border-right: solid gray 1px;
-        width:200px;
-        margin:0;
-        padding: 20px;
-        padding-left:6px;
-      }
-      h3 {
-        font-size: 25px;
-        margin:0;
-      }
-      ol {
-        margin:0;
-        padding-left:55px;
-      }
-      body {
-        margin:0;
-      }
-      #grid {
-        display:grid;
-        grid-template-columns: 1fr 6fr;
-      }
-      #article {
-        padding-left:10px;
-      }
-      @media(max-width:700px) {
-        #grid {
-          display:block;
-        }
-        h2 {border-right: none;
-        }
-        h1 {border-bottom: none;}
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
-      <h1><a href="index.html">Web</a>-HTML</h1>
-      <div id=grid>
-        <h2>
-          <ol>
-            <li><a href="1.html">HTML</a></li>
-            <li><a href="2.html">CSS</a></li>
-            <li><a href="3.html">JavaScript</a></li>
-          </ol>
-        </h2>
-          <div id=article>
-            <p>
-            <h3>What is HTML?</h3>
-              <br>Hypertext Markup Language (HTML) is the standard markup language for
-              documents designed to be displayed in a web browser. It can be assisted
-              by technologies such as Cascading Style Sheets (CSS) and scripting
-              languages such as JavaScript.
-              <br>-<u><a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="reference"><i>Wikipedia</i></a></u>
-            </p>
-          </div>
-        <img src="web.jpg" width="250px" title="web">
+    <h1><a href="index.html">Web</a>-HTML</h1>
+    <div id=grid>
+      <h2>
+        <ol>
+          <li><a href="1.html">HTML</a></li>
+          <li><a href="2.html">CSS</a></li>
+          <li><a href="3.html">JavaScript</a></li>
+        </ol>
+      </h2>
+      <div id=article>
+      <p>
+       <h3>What is HTML?</h3>
+          <br>Hypertext Markup Language (HTML) is the standard markup language for
+          documents designed to be displayed in a web browser. It can be assisted
+          by technologies such as Cascading Style Sheets (CSS) and scripting
+          languages such as JavaScript.
+          <br>-<u><a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="reference"><i>Wikipedia</i></a></u>
+        </p>
       </div>
+      <img src="web.jpg" width="250px" title="web">
     </div>
   </body>
 </html>
